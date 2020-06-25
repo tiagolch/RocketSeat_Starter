@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <script>
+        
+        function experiencia(anos){
+            
+            if(anos >= 0 && anos <= 1 ){
+                console.log("Iniciante")
+            }
+            else if(anos >= 2 && anos <= 3){
+                console.log("Intermediario")
+            }
+            else if(anos >= 4 && anos <= 6){
+                console.log("Avançado")
+            }
+            else if(anos >= 7){
+                console.log("Jedi Master")
+            }
+            else{                
+                console.log("O parametro deve ser Integer")
+            }
+        }
+        
+        var anosEstudos = 8;
+        experiencia(anosEstudos)
+
+
+
+    </script>
+</body>
+</html>
