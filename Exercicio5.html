@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <script>
+        var  usuarios = [
+            {
+                nome: "Tiago",
+                habilidades: ["Python", "Javascript"]
+            },
+            {
+                nome: "Vanessa",
+                habilidades: ["Gerente PJ","Gerente PF"]
+            }
+        ];
+        
+        function users(parametro){
+            for(var usu of parametro){
+            console.log("Usuario "+usu.nome+" possui as habilidades: "+usu.habilidades)
+            }
+        }
+      
+        users(usuarios)
+
+
+
+
+    </script>
+</body>
+</html>
